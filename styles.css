@@ -12,16 +12,23 @@ nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0 10vw;
-  padding: 20px 0px;
+  margin: 0 60px;
+  padding: 0 5vh;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  font-size: 1rem;
 }
 
 nav .logo1 {
   width: 107px;
   margin: auto;
+}
+
+@media (min-width: 600px) {
+  .logo {
+    width: 40vw;
+  }
 }
 
 ul {
@@ -57,7 +64,7 @@ ul {
   color: white;
   background: rgba(224, 224, 229, 0.21);
   border: 0.5px solid transparent;
-  padding: 1rem 2.5rem;
+  padding: 0.5rem 2rem;
   border-radius: 26px;
   color: white;
   -webkit-transition: all 200ms;
@@ -69,21 +76,6 @@ ul {
 .btn-1:hover {
   border: 0.5px solid white;
   background-color: #373858;
-}
-
-@media (min-width: 600px) {
-  .logo {
-    width: 30vw;
-  }
-}
-
-@media (max-width: 600px) {
-  .links {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
 }
 
 .main1 {
@@ -98,12 +90,13 @@ ul {
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: 5vh 10vw;
+  margin: 60px;
+  padding: 0 5vh;
 }
 
-.container {
+.left {
   max-width: 600px;
-  padding: 5vh 0;
+  padding: 5vh;
 }
 
 h1 {
@@ -124,7 +117,8 @@ p {
 .btn-2, .btn-3 {
   margin-top: 2vh;
   margin-right: 2vh;
-  padding: 1rem 2rem;
+  width: 140px;
+  padding: 0.5rem 1rem;
   font-family: Roboto;
   font-size: 1rem;
   border-radius: 26px;
@@ -153,7 +147,7 @@ p {
   background-color: rgba(255, 255, 255, 0.199);
 }
 
-.mainimg {
+.right {
   max-width: 500px;
   padding: 5vh 0;
 }
