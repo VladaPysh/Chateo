@@ -10,8 +10,7 @@ body {
 
 nav {
   display: flex;
-  margin: 0 60px;
-  padding: 0 5vh;
+  margin: auto;
   justify-content: space-between;
   font-size: 1rem;
   .logo1 {
@@ -38,11 +37,20 @@ ul {
   list-style-type: none;
   li {
     margin: auto;
-    a {
-      font-family: Roboto;
-      color: white;
-      text-decoration: none;
-    }
+  }
+}
+
+a {
+  font-family: Roboto;
+  color: white;
+  text-decoration: none;
+}
+
+li {
+  a:hover {
+    color: white;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.5px solid white;
   }
 }
 
@@ -54,7 +62,7 @@ ul {
   padding: 0.5rem 2rem;
   border-radius: 26px;
   color: white;
-  transition: all 200ms;
+  transition: all 300ms;
   cursor: pointer;
   outline: none;
 }
@@ -64,18 +72,27 @@ ul {
   background-color: #373858;
 }
 
+@media(min-width: 1200px) {
+  nav {
+    max-width: 1140px;
+  }
+  .main1 {
+    max-width: 1140px;
+  }
+}
+
 .main1 {
+  width: 100%;
+  margin: auto;
+  padding: 0 5vh;
   display: flex;
-  align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 60px;
-  padding: 0 5vh;
 }
 
 .left {
-  max-width: 600px;
-  padding: 5vh;
+  min-width: 450px;
+  padding-top: 20vh;
 }
 
 h1 {
@@ -103,6 +120,7 @@ p {
   border-radius: 26px;
   color: white;
   cursor: pointer;
+  transition: all 300ms;
 }
 
 .btn-2 {
@@ -126,6 +144,7 @@ p {
 
 .right {
   max-width: 500px;
+  margin-top: 10vh;
   padding: 5vh 0;
 }
 
