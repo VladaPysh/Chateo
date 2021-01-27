@@ -185,6 +185,16 @@ h2 {
   z-index: -1;
 }
 
+.main3 {
+  width: 90%;
+  margin: auto;
+  padding: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:rgba(211, 211, 214, 0.21);
+}
+
 @media screen and (max-width: 810px) {
   h1 {
     font-size: 3.5rem;
