@@ -113,7 +113,7 @@ h1 {
   color: #FFFFFF;
 }
 
-p {
+.left p {
   font-family: Roboto;
   font-size: 1rem;
   color: #FFFFFF;
@@ -195,7 +195,7 @@ img {
           flex-direction: column;
 }
 
-.middle_main p {
+p {
   max-width: 800px;
   padding-top: 2vh;
   margin: auto;
@@ -228,8 +228,12 @@ h2 {
   width: 100%;
   background-color: #3738583b;
   background-image: url("Rectangle 12.svg");
-  background-position: 0% 0%;
   background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.padding {
+  padding-bottom: 20vh;
 }
 
 .right3 {
@@ -241,6 +245,42 @@ h2 {
 
 .h1_3 {
   font-size: 3rem;
+}
+
+.footer {
+  background-color: #3738583b;
+  background-image: url("circlecorner.svg");
+  background-repeat: no-repeat;
+  background-position: 0% 100%;
+  background-size: 100px;
+}
+
+.content {
+  width: 90%;
+  margin: auto;
+  padding: 0 5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.logo3 {
+  width: 160px;
+  margin-right: 3vh;
+  margin-bottom: 3vh;
+}
+
+.copyright {
+  padding: 5vh;
+  font-size: 0.7rem;
 }
 
 @media screen and (max-width: 810px) {
