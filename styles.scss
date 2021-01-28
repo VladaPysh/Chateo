@@ -21,7 +21,7 @@ nav {
 }
 
 .logo {
-  width: 40%;
+  width: 30vw;
 }
 
 .links {
@@ -94,10 +94,10 @@ h1 {
 
 .left {
   p {
-  font-family: Roboto;
-  font-size: 1rem;
-  color: #FFFFFF;
-}
+    font-family: Roboto;
+    font-size: 1rem;
+    color: #FFFFFF;
+  }
 }
 
 .btn-2, .btn-3 {
@@ -185,6 +185,7 @@ h2 {
 
 .wave {
   position: relative;
+  width: 102%;
   top: -35px;
   z-index: -1;
 }
