@@ -273,14 +273,21 @@ h2 {
 }
 
 .logo3 {
-  width: 160px;
-  margin-right: 3vh;
-  margin-bottom: 3vh;
+  width: 150px;
+}
+
+.column {
+  padding: 5px;
 }
 
 .copyright {
   padding: 5vh;
   font-size: 0.7rem;
+}
+
+.contact_us {
+  color: #1d1e3b;
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 810px) {
