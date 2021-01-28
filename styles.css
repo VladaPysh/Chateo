@@ -220,7 +220,6 @@ h2 {
 
 .wave {
   position: relative;
-  width: auto;
   top: -35px;
   z-index: -1;
 }
