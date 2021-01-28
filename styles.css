@@ -28,7 +28,7 @@ nav .logo1 {
 }
 
 .logo {
-  width: 40%;
+  width: 30vw;
 }
 
 .links {
@@ -220,6 +220,7 @@ h2 {
 
 .wave {
   position: relative;
+  width: auto;
   top: -35px;
   z-index: -1;
 }
