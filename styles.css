@@ -179,6 +179,11 @@ img {
   padding-bottom: 50px;
 }
 
+.main2 img {
+  width: 100%;
+  height: auto;
+}
+
 .middle_main {
   display: -webkit-box;
   display: -ms-flexbox;

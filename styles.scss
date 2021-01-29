@@ -148,6 +148,10 @@ img {
   display: flex;
   flex-direction: column;
   padding-bottom: 50px;
+  img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .middle_main {
